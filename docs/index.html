@@ -8,14 +8,14 @@
       name="description"
       content="Bob is a macOS menu bar app that turns any window into an AI workspace."
     />
-    <link rel="stylesheet" href="./styles.css?v=20260320e" />
+    <link rel="stylesheet" href="./styles.css?v=20260321a" />
   </head>
   <body>
     <div class="page">
       <nav class="topbar">
         <a class="brand" href="./">Bob</a>
         <div class="nav-actions">
-          <a href="#how">How it works</a>
+          <a href="#what">What it does</a>
           <a class="nav-button" href="https://github.com/1amageek/bob/releases/latest">Download</a>
         </div>
       </nav>
@@ -23,10 +23,10 @@
       <header class="hero">
         <img class="hero-icon" src="./assets/bob-hero.png?v=20260320e" alt="Bob hero mark" />
         <p class="eyebrow">macOS menu bar app</p>
-        <h1>Bob watches your window and jumps in.</h1>
+        <h1>Bob is an AI workspace that appears beside your window.</h1>
         <p class="lead">
-          Shake a window and Bob appears beside it, understands the app context,
-          and starts a focused agent without turning your desktop into a giant chat app.
+          Shake a window, Bob reads the app context, and starts a focused task
+          without pulling you away from what you are doing.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="https://github.com/1amageek/bob/releases/latest">Download latest</a>
@@ -35,39 +35,37 @@
       </header>
 
       <main>
-        <section class="how" id="how">
-          <article class="card">
-            <span class="step">1</span>
-            <h2>Shake</h2>
-            <p>Move a window with intent and Bob catches the gesture.</p>
+        <section class="section-grid" id="what">
+          <article class="panel">
+            <p class="panel-label">What Bob does</p>
+            <ul class="feature-list">
+              <li>Appears next to the window you are using</li>
+              <li>Reads app context through an adapter</li>
+              <li>Runs a rule-driven agent for the current task</li>
+              <li>Shows progress in a floating card stack</li>
+            </ul>
           </article>
-          <article class="card">
-            <span class="step">2</span>
-            <h2>Understand</h2>
-            <p>Bob identifies the app and reads the context it can extract.</p>
-          </article>
-          <article class="card">
-            <span class="step">3</span>
-            <h2>Run</h2>
-            <p>Rules launch an agent and progress appears beside your work.</p>
+
+          <article class="panel panel-dark">
+            <p class="panel-label">What works today</p>
+            <ul class="feature-list">
+              <li>Finder-based window context</li>
+              <li>Folder and file aware workflows</li>
+              <li>Rule-first task execution</li>
+              <li>Floating menu bar experience on macOS</li>
+            </ul>
           </article>
         </section>
 
-        <section class="bottom">
-          <article class="panel">
-            <p class="panel-label">Getting started</p>
-            <ol>
-              <li>Download the latest build from GitHub Releases.</li>
-              <li>Move Bob to Applications.</li>
-              <li>Open Bob from the menu bar.</li>
-              <li>Grant permissions when macOS asks.</li>
-              <li>Open Finder and shake a window to try it.</li>
-            </ol>
-          </article>
-          <article class="panel panel-dark">
-            <p class="panel-label">Current focus</p>
-            <p>Finder comes first. More adapters come next.</p>
-          </article>
+        <section class="steps-panel">
+          <p class="panel-label">How to try it</p>
+          <ol class="steps">
+            <li>Download Bob from GitHub Releases.</li>
+            <li>Move Bob to Applications and open it.</li>
+            <li>Grant macOS permissions when asked.</li>
+            <li>Open Finder and shake a window.</li>
+            <li>Let Bob inspect the context and start a task.</li>
+          </ol>
         </section>
       </main>
     </div>

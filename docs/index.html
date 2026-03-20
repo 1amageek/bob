@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bob | AI workspace for any window</title>
+    <meta
+      name="description"
+      content="Bob is a macOS menu bar app that turns any window into an AI workspace."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <a class="brand" href="./">Bob</a>
+          <div class="nav-links">
+            <a href="#how-it-works">How it works</a>
+            <a href="#getting-started">Getting started</a>
+            <a href="https://github.com/1amageek/bob/releases/latest">Download</a>
+          </div>
+        </nav>
+
+        <section class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">macOS menu bar app</p>
+            <h1>AI workspace for any window.</h1>
+            <p class="lead">
+              Bob sits beside the window you are already using, understands app
+              context, and runs rule-driven agents without breaking your flow.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://github.com/1amageek/bob/releases/latest">Download latest</a>
+              <a class="button button-secondary" href="https://github.com/1amageek/bob">View GitHub</a>
+            </div>
+            <ul class="hero-points">
+              <li>Window-centric, not file-centric</li>
+              <li>Floating card stack beside the active app</li>
+              <li>Rule-first automation model</li>
+            </ul>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-window">
+              <div class="panel-window-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="card-stack">
+                <article class="task-card task-card-front">
+                  <p class="card-phase">Scanning</p>
+                  <h2>Review Finder selection</h2>
+                  <p>
+                    Bob inspects the current window, resolves the adapter, and
+                    prepares the matching rule.
+                  </p>
+                </article>
+                <article class="task-card task-card-back">
+                  <p class="card-phase">Running</p>
+                  <h2>Summarize folder changes</h2>
+                </article>
+                <article class="task-card task-card-back-late">
+                  <p class="card-phase">Done</p>
+                  <h2>Create release notes</h2>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <section class="section section-grid">
+          <div>
+            <p class="section-label">What makes Bob different</p>
+            <h2>Built around the window you are using right now.</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Window-aware</h3>
+              <p>
+                Bob identifies the frontmost window, the app behind it, and the
+                context it can extract.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Rule-first</h3>
+              <p>
+                Triggers, conditions, prompts, and outputs are defined as rules
+                instead of ad hoc actions.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Adapter-based</h3>
+              <p>
+                Finder support comes first. Other apps can be added through new
+                adapters over time.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Non-intrusive</h3>
+              <p>
+                The floating panel stays beside your work instead of replacing
+                it with a full-screen AI surface.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section timeline-section" id="how-it-works">
+          <div class="section-heading">
+            <p class="section-label">How it works</p>
+            <h2>From window motion to task cards.</h2>
+          </div>
+          <ol class="timeline">
+            <li>
+              <strong>Shake a window</strong>
+              Bob watches for a deliberate shake gesture while you drag a
+              window.
+            </li>
+            <li>
+              <strong>Capture context</strong>
+              Bob records the frontmost app, frame, and process information.
+            </li>
+            <li>
+              <strong>Resolve an adapter</strong>
+              The matching adapter extracts structured context from the app.
+            </li>
+            <li>
+              <strong>Run a rule</strong>
+              Rules expand the prompt, choose the backend, and start work.
+            </li>
+            <li>
+              <strong>Track progress</strong>
+              Cards show scanning, planning, editing, review, and completion.
+            </li>
+          </ol>
+        </section>
+
+        <section class="section section-grid" id="getting-started">
+          <div>
+            <p class="section-label">Getting started</p>
+            <h2>Install Bob and run your first window-aware task.</h2>
+          </div>
+          <div class="steps-card">
+            <ol class="steps">
+              <li>Download the latest build from GitHub Releases.</li>
+              <li>Move Bob to the Applications folder.</li>
+              <li>Open Bob from the menu bar.</li>
+              <li>Grant the required macOS permissions when prompted.</li>
+              <li>Open Finder, select a target folder or file, and shake the window.</li>
+            </ol>
+            <p class="note">
+              Initial releases are optimized for Finder-based workflows while
+              the adapter system expands.
+            </p>
+          </div>
+        </section>
+
+        <section class="section section-grid">
+          <div>
+            <p class="section-label">Project status</p>
+            <h2>Focused early release with room to grow.</h2>
+          </div>
+          <div class="status-grid">
+            <article class="status-card">
+              <span class="status-tag">Now</span>
+              <p>Menu bar app, floating workspace, Finder adapter, rule engine.</p>
+            </article>
+            <article class="status-card">
+              <span class="status-tag">Next</span>
+              <p>More app adapters, richer task outputs, tighter release flow.</p>
+            </article>
+            <article class="status-card">
+              <span class="status-tag">Input</span>
+              <p>Feature requests and bug reports should go through GitHub Issues.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Bob is a macOS app in active development.</p>
+        <div class="footer-links">
+          <a href="https://github.com/1amageek/bob/releases/latest">Releases</a>
+          <a href="https://github.com/1amageek/bob/issues">Issues</a>
+          <a href="https://github.com/1amageek/bob">GitHub</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

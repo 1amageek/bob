@@ -143,6 +143,32 @@ h1 {
   gap: 14px;
 }
 
+.video-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 34px;
+}
+
+.video-card {
+  padding: 26px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--dark-card);
+  box-shadow: var(--shadow);
+}
+
+.video-card .panel-label {
+  color: rgba(255, 247, 211, 0.86);
+  margin-bottom: 16px;
+}
+
+.demo-video {
+  width: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
 .section-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -194,6 +220,7 @@ h1 {
 }
 
 @media (max-width: 860px) {
+  .video-section,
   .section-grid {
     grid-template-columns: 1fr;
   }

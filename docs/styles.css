@@ -186,6 +186,34 @@ h1 {
   margin-top: 34px;
 }
 
+.requirements-panel {
+  margin-top: 28px;
+  padding: 26px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--dark-card);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.requirements-text {
+  color: rgba(255, 247, 211, 0.86);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.requirements-panel .panel-label {
+  color: rgba(255, 247, 211, 0.86);
+  margin-bottom: 12px;
+}
+
+.inline-link {
+  color: var(--yellow-soft);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .panel,
 .steps-panel {
   padding: 26px;

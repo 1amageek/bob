@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Bob Updates</title>
+    <link>https://1amageek.github.io/bob/appcast.xml</link>
+    <language>en</language>
+    <item>
+      <title>v0.3.1</title>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <pubDate>Sun, 22 Mar 2026 10:20:15 +0000</pubDate>
+      <enclosure
+        url="https://github.com/1amageek/bob/releases/download/v0.3.1/Bob.zip"
+        length="5128553"
+        type="application/octet-stream"
+        sparkle:edSignature="NVUoMDGuHz8xUw/Pw06aP+v0zMBtfX+JZgg78KNgy25TjCW1pGlbZxCSoK2mUqqMttXa0KyUJtUUVPW/YE9LBw=="
+      />
+    </item>
+  </channel>
+</rss>

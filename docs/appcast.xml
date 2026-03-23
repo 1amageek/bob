@@ -5,16 +5,16 @@
     <link>https://1amageek.github.io/bob/appcast.xml</link>
     <language>en</language>
     <item>
-      <title>v0.4.0</title>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <title>v0.5.0</title>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 22 Mar 2026 13:55:28 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 03:41:14 +0000</pubDate>
       <enclosure
-        url="https://github.com/1amageek/bob/releases/download/v0.4.0/Bob.zip"
-        length="5143968"
+        url="https://github.com/1amageek/bob/releases/download/v0.5.0/Bob.zip"
+        length="5162359"
         type="application/octet-stream"
-        sparkle:edSignature="1+eA96GAZLRcoqQcBOCbUylZKBedIHk446UTEeBjcd5Is1VW+rbCNViXkFPbPZFNrPBwFDjpUACNVYzoJTIkCA=="
+        sparkle:edSignature="j04QJfQCdz+rYaE6Xf2q0mHHzNE7K26M77NrZyHOUNaoGqGbJHChhEq1tUs8XQCujkpFq1LTPW6ZcBMdBghIAw=="
       />
     </item>
   </channel>

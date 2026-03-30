@@ -459,6 +459,28 @@ h1 {
   font-weight: 600;
 }
 
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 0.95rem;
+}
+
+.info-table th,
+.info-table td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(28, 28, 32, 0.1);
+  color: var(--ink-soft);
+}
+
+.info-table th {
+  color: var(--ink);
+  font-weight: 700;
+  white-space: nowrap;
+  width: 1%;
+}
+
 /* Footer */
 
 .footer {
